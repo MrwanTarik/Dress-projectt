@@ -14,7 +14,7 @@ class Runway extends Component {
             <video className="runway-video" src={activeDress.runway} autoPlay={true} loop={true}/>
           </div>
           <div className="info-area">
-            <h1>VALENTINO</h1>
+            <h1>Designer</h1>
             <p className="description">{activeDress.name}</p>
             <h2>{activeDress.price}</h2>
             <h2>Color: {activeDress.color}</h2>
